@@ -1,0 +1,79 @@
+﻿extends layout
+
+block content
+    .container
+        .row
+            .col-md-6.col-md-offset-2
+                .input-group
+                    input(type="text", class="form-control input-lg ", placeholder="Enter Filter Text")
+                    .input-group-btn.dropdown-sel-group
+                        button(type="button",class="btn btn-primary btn-lg dropdown-select btn-fixed-width", data-bind="curr-selection") Filter
+                        button(type="button",class="btn btn-primary btn-lg dropdown-toggle",data-toggle="dropdown",aria-haspopup="true", aria-expanded="false")
+                            span(class="caret")
+                            span(class="sr-only")
+                        ul(class="dropdown-menu", role="menu")
+                            li(data-value="Filter")
+                                a(href="#") Filter
+                            li(data-value="Search")
+                                a(href="#") Search
+            .col-md-3
+                .btn-group.dropdown-sel-group
+                    button(type="button",class="btn btn-primary btn-lg dropdown-select btn-fixed-width", data-bind="curr-selection") A-Z
+                    button(type="button",class="btn btn-primary btn-lg dropdown-toggle",data-toggle="dropdown",aria-haspopup="true", aria-expanded="false")
+                        span(class="caret")
+                        span(class="sr-only")
+                    ul(class="dropdown-menu", role="menu")
+                        li(data-value="A-Z")
+                            a(href="#") A-Z
+                        li(data-value="Last Modified")
+                            a(href="#") Last Modified
+    .container-fluid
+        .row
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/400x400&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/40x40&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/40x70&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/60x40&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/12x34&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/9x9&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/400x400&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva
+            .col-md-2.col-sm-6.col-xs-12
+                .mypanel
+                    .mypanelImg
+                        img(src="http://placehold.it/400x400&text=one" alt="Cinque Terre")
+                    .mypanelLabel
+                        h5 Apoorva

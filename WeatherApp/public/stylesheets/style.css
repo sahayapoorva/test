@@ -1,0 +1,34 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.btn-fixed-width {
+    min-width: 140px;
+}
+
+.mypanel {
+    background-color: #ffffff;
+}
+
+.mypanelImg {
+    min-width: 80px;
+    min-height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.mypanelImg img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mypanelLabel {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
